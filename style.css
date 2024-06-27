@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@keyframes brandmove{
+    0%{transform:translateX(-500px)}
+    100%{transform:translateX(1000px)}
+}
+@keyframes typing{
+    from{ width: 0 }
+}
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+.topofthepage{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+body{
+    background-color: rgb(27, 41, 41);
+}
+main{
+    padding-top: 65px;
+}
+.principale{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar{
+    width: 100%;
+    color:  rgb(193, 193, 193);
+    background-color: rgb(0, 0, 0);
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000px;
+}
+.logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.homelink{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    
+}
+.home:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 1px 0.5px rgb(0, 153, 255);
+    transition-duration: 0.45s;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+}
+.about:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 1px 0.5px rgb(0, 153, 255);
+    transition-duration: 0.45s;
+}
+.facebook:hover{
+    background-color: #4267B2;
+}
+.linkedin:hover{
+    background-color: #0A66C2;
+}
+.instagram:hover{
+    background-image: linear-gradient(90deg, #405DE6  #5851DB  #833AB4 #C13584 #E1306C);
+}
+.twitter:hover{
+    background-color: #1da1f2;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+}
+.projects:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 1px 0.5px rgb(0, 153, 255);
+    transition-duration: 0.45s;
+}
+.class1{
+    height: 100%;
+}
+.btn1{
+    color: white;
+    background-color: rgb(42, 81, 98);
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 1px rgb(43, 86, 100);
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.classTitle{
+    font-size: 90px;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgb(83, 139, 141), rgb(30, 114, 138));
+    background-clip: text;
+    color: transparent;
+}
+.btn2{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
+.socialmedia{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 25px;
+    height: 300px;
+}
+.sectioninfo{
+    display: flex;
+    justify-content: space-between;
+    height: 310px;
+}
+.dev{
+    height: 100px;
+}
+.devname{
+    color: white;
+    font-family:monospace;
+    font-size: 70px;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+.devname >span{
+    color: white;
+    font-family:monospace;
+    font-size: 70px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    width: 100%;
+    border-right: 2px solid;
+    animation: 
+        typing 2s steps(8),
+        cursor 0.4s step-end infinite alternate;
+}
+.devdesc{
+    color: rgb(68, 58, 58);
+    font-family:'open sans', arial, sans-serif;
+    font-size: 15px;
+
+}
+.devdesc:hover{
+    color: lightblue;
+}
+.class2{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(21, 81, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    overflow: hidden;
+}
+.brandname{
+    color: white;
+    display: flex;
+    align-items: center;
+    animation: brandmove 50s linear infinite both;
+    gap: 200px;
+    z-index: -1000px;
+}
+.brandname2{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    animation: brandmove 50s linear infinite both;
+}
+.brandname3{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    animation: brandmove 50s linear infinite both;
+}

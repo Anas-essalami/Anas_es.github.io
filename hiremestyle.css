@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(27, 44, 44);
+}
+.divheader{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.arrow{
+    padding: 10px;
+    font-size: 90px;
+    color: white;
+    text-shadow: 0 0px 20px rgb(43, 86, 95);
+}
+.arrow:hover{
+    color: rgb(43, 74, 95);
+    text-shadow: 0 6px 5px rgb(255, 255, 255);
+    transition-duration: 0.7s;
+}
+.contacttitle{
+    color: white;
+    font-family: 'Work sans', arial, sans-serif;
+    font-weight: bolder;
+    font-size: 90px;
+    text-shadow: 0 0px 3px rgb(0, 208, 255);
+}
+span{
+    color: #00ffee;
+    text-shadow: 0 0px 6px rgb(90, 225, 255);
+}
+section{
+    height: 400px;
+}
+.MessageForm{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#left{
+    height: 35px;
+    width: 300px;
+    border: 2px solid #00ffee;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 8px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+#right{
+    height: 150px !important;
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid #00ffee;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.6;
+    display: flex;
+    margin-bottom: 15px;
+}
+#send{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'poppins', arial, sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, #00ffee, darkslategray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    background-color: transparent;
+}
